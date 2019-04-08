@@ -1,6 +1,6 @@
 function getRemoteStyle_partner(config) {
    
-   const base_url = `/local/content-card-remote-control/${config.remote_template}`;    
+   const base_url = `/local/content-card-remote-control-adb/${config.remote_template}`;    
     
   return `
     ha-card{
