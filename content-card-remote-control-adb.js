@@ -5,7 +5,7 @@ function loadScript(remote_template){
 	}
 
 	var script = document.createElement("script");
-	script.src = `/local/content-card-remote-control/${remote_template}/remote-html.js`;
+	script.src = `/local/content-card-remote-control-adb/${remote_template}/remote-html.js`;
 	script.type = "text/javascript";
 	script.async = false;
 	document.head.appendChild(script); 
@@ -14,7 +14,7 @@ function loadScript(remote_template){
 }
 
 
-class ContentCardRemoteControl extends HTMLElement {
+class ContentCardRemoteControlAdb extends HTMLElement {
 
   constructor() {
     super();
@@ -102,4 +102,4 @@ class ContentCardRemoteControl extends HTMLElement {
   	return config.buttons[buttonId];
   }
 
-customElements.define('content-card-remote-control', ContentCardRemoteControl);
+customElements.define('content-card-remote-control-adb', ContentCardRemoteControlAdb);
