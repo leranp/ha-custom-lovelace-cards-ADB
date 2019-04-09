@@ -1,3 +1,4 @@
+`<addr>`
   - type: "custom:content-card-remote-control-adb"
     broadlink_entity: 'adb_key'
     name: PartnerTV-Adb
@@ -40,3 +41,4 @@
       fastforward: 87
       volplus: 24
       two: 9
+`<addr>`
